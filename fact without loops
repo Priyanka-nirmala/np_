@@ -1,0 +1,7 @@
+def factOfn(n):
+    if n==0:
+        return 1
+    else:
+        return n*factOfn(n-1)
+num=int(input())
+print(factOfn(num))
